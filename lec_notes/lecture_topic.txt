@@ -1,0 +1,9 @@
+1. Digital Image Modalities and Processing
+2. Human Visual System, Preception, and Color
+3. Image Acquisition and Sensing
+4.Histogram and Point Operation
+5. Geometric Operation
+6. Spatial Filter
+7. The 2D Discrete Fourier Transform
+8. Frequency Domain Filtering; Sampling and Aliasing
+9. Unitary Image Transform 
