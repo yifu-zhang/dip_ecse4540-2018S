@@ -7,3 +7,4 @@
 7. The 2D Discrete Fourier Transform
 8. Frequency Domain Filtering; Sampling and Aliasing
 9. Unitary Image Transform 
+10. Edge Detection
