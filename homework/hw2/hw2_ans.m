@@ -15,3 +15,17 @@ im4 = [[zeros(128,128); 128*ones(128,128)], 255*ones(256, 128)];
 % I can see some birds in some blocks
 % differ: local is equalization by 80*80 block while global is equalized by
 % whole image
+%% q5
+% a - b
+[im, format] = imread('baby_shark.png');
+im_a = imrotate(im, -30);
+im_ab = flipdim(im_a,1);
+imshow(im_ab,format);
+% b - a
+im_b = flipdim(im, 1);
+im_ba = imrotate(im_b, -30);
+imshow(im_ba, format);
+% not the same result
+%% q6
+A = [1/2, -1; 1/2, 1/2];
+b = [1/2; 0];
